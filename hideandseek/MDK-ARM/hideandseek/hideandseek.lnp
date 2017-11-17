@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"hideandseek\stm32f1xx_hal_pwr.o"
+"hideandseek\stm32f1xx_hal_tim.o"
+"hideandseek\stm32f1xx_hal_dma.o"
+"hideandseek\stm32f1xx_hal_cortex.o"
+"hideandseek\stm32f1xx_hal_gpio_ex.o"
+"hideandseek\stm32f1xx_hal_rcc_ex.o"
+"hideandseek\stm32f1xx_hal_rcc.o"
+"hideandseek\stm32f1xx_hal_flash_ex.o"
+"hideandseek\stm32f1xx_hal.o"
+"hideandseek\stm32f1xx_hal_gpio.o"
+"hideandseek\stm32f1xx_hal_tim_ex.o"
+"hideandseek\stm32f1xx_hal_flash.o"
+"hideandseek\stm32f1xx_hal_uart.o"
+"hideandseek\system_stm32f1xx.o"
+"hideandseek\startup_stm32f103xb.o"
+"hideandseek\stm32f1xx_it.o"
+"hideandseek\main.o"
+"hideandseek\stm32f1xx_hal_msp.o"
+--library_type=microlib --strict --scatter "hideandseek\hideandseek.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "hideandseek.map" -o hideandseek\hideandseek.axf
